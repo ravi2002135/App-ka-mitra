@@ -1,11 +1,25 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# App Ka Mitra - Smart Multilingual Tour Guide
 
-  <h1>Built with AI Studio</h2>
+An AI-powered travel companion with real-time multilingual support, Google Maps integration, and AR landmark recognition.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Local Development
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-</div>
+2. **API Key Setup**:
+   Create a `.env` file in the root and add:
+   ```env
+   VITE_API_KEY=your_gemini_api_key
+   ```
+
+3. **Run Dev Server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **AR Features**: 
+   Since AR requires camera access, ensure you access the dev server via `https` or `localhost`.

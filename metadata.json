@@ -1,0 +1,9 @@
+{
+  "name": "Copy of App Ka Mitra - Smart Multilingual Tour Guide",
+  "description": "An AI-powered travel companion with real-time multilingual support, Google Maps integration for location-based recommendations, and crowd-sourced review insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
